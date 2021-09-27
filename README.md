@@ -56,10 +56,9 @@ for more information on how to publish a VSCode Extension.
 // If not logged into the VS Code Extension Marketplace
 vsce login <username>
 vsce package
-vsce publish
 ```
 
 ```js
-// Optionally bump the version number
+// Bump the version number and publish
 vsce publish minor
 ```
