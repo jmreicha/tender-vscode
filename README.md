@@ -2,6 +2,8 @@
 
 ![tender](https://cloud.githubusercontent.com/assets/829859/18413534/f7cb472c-77aa-11e6-86bf-9c790aadd2df.png)
 
+A VSCode theme heavily inspired by the [tender.vim](https://github.com/jacoborus/tender.vim) colorscheme.
+
 **Clone and run for a quick way to get started with [vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator).**
 
 ## Screenshots
@@ -27,7 +29,7 @@ npm install -g vsce
 npm install
 ```
 
-Make your changes to the colors in index.ts and hit F5 to build the theme and
+Make your changes to the colors in `index.ts` and hit F5 to build the theme and
 launch a new VS Code window with your theme available in the command palette
 (`ctrl`/`cmd+shift+p` > "Color Theme").
 
@@ -40,17 +42,11 @@ npm run prestart && npm run start
 
 ## Publishing
 
-When you're ready to publish, run the following commands.
-
-First, generate the theme.
-
-```js
-npm run
-```
-
 See
 [here](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 for more information on how to publish a VSCode Extension.
+
+When you're ready to publish, run the following commands.
 
 ```js
 // If not logged into the VS Code Extension Marketplace
