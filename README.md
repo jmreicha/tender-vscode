@@ -34,6 +34,10 @@ launch a new VS Code window with your theme available in the command palette
 To skip the debugging step simply run the `nmp run` command to generate the
 theme.
 
+```js
+npm run prestart && npm run start
+```
+
 ## Publishing
 
 When you're ready to publish, run the following commands.
