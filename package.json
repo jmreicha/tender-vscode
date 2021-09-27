@@ -3,7 +3,7 @@
   "displayName": "Tender",
   "publisher": "jmreicha",
   "description": "Tender color theme adapted for Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "https://github.com/jmreicha/tender-vscode",
   "icon": "images/icon.png",
   "scripts": {
