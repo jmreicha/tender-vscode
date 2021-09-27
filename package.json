@@ -5,7 +5,7 @@
   "description": "Tender color theme adapted for Visual Studio Code",
   "version": "0.0.1",
   "repository": "https://github.com/jmreicha/tender-vscode",
-  "icon": "https://github.com/jmreicha/tender-vscode/blob/main/icon.png",
+  "icon": "images/icon.png",
   "scripts": {
     "prestart": "tsc index.ts",
     "start": "node index.js"
