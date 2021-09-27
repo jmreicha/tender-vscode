@@ -38,6 +38,12 @@ theme.
 npm run prestart && npm run start
 ```
 
+Then install the theme locally to test.
+
+```bash
+code --install-extension tender-<version>.vsix
+```
+
 ## Publishing
 
 See
@@ -47,8 +53,9 @@ for more information on how to publish a VSCode Extension.
 When you're ready to publish, run the following commands.
 
 ```js
-// If not logged into the VS Code Extension Marketplace
+// If not logged into the VS Code Extension Marketplace, first login
 vsce login <username>
+// Then package the theme
 vsce package
 ```
 

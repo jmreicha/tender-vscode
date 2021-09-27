@@ -26,7 +26,7 @@
       "name": "Boolean",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "#ffc24b"
+        "foreground": "#b3deef"
       }
     },
     {
@@ -54,7 +54,7 @@
       "name": "Function call",
       "scope": "entity.name.function, support.function",
       "settings": {
-        "foreground": "#c9d05c"
+        "foreground": "#b3deef"
       }
     },
     {
@@ -120,7 +120,7 @@
       "name": "Function definition",
       "scope": "meta.function entity.name.function",
       "settings": {
-        "foreground": "#b3deef"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -197,7 +197,7 @@
       "name": "HTML tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#c9d05c"
+        "foreground": "#b3deef"
       }
     },
     {
@@ -299,7 +299,7 @@
       "name": "C# function call",
       "scope": "source.cs meta.method-call meta.method, source.cs entity.name.function",
       "settings": {
-        "foreground": "#c9d05c"
+        "foreground": "#b3deef"
       }
     },
     {
