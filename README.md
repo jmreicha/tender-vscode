@@ -4,6 +4,10 @@
 
 **Clone and run for a quick way to get started with [vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator).**
 
+## Screenshots
+
+![typescript](https://user-images.githubusercontent.com/1039098/134945798-23308797-b4dc-4773-ba0f-789cf51ce024.png)
+
 ## Install
 
 1. Go to [VS
