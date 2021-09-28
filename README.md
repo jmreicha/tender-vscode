@@ -63,3 +63,77 @@ vsce package
 // Bump the version number and publish
 vsce publish minor
 ```
+
+## Customizing the theme
+
+Currently there are some colors that are not generated automatically. To work
+around this, you can set colors for specific tokens that should be overridden.
+
+For example, add the following snippet to your `settings.json` to customize the
+theme further.
+
+```json
+"editor.tokenColorCustomizations": {
+    "[Tender]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "punctuation.separator.dictionary.key-value.json",
+            "punctuation.separator.dict",
+            "punctuation.separator.key-value",
+            "keyword.operator"
+          ],
+          "settings": {
+            "foreground": "#f43753",
+          }
+        },
+        {
+          "scope": [
+            "punctuation.separator",
+            "punctuation.other",
+            "constant.other.placeholder",
+            "entity.name.function",
+            "entity.name.function.shell",
+            "entity.name.function.python"
+          ],
+          "settings": {
+            "foreground": "#73cef4",
+          }
+        },
+        {
+          "scope": "keyword.codetag.notation",
+          "settings": {
+            "foreground": "#ff7b6b",
+          }
+        },
+        {
+          "scope": "keyword.operator.assignment",
+          "settings": {
+            "foreground": "#eeeeee",
+          }
+        },
+        {
+          "scope": "string.quoted",
+          "settings": {
+            // "foreground": "#A8FF60",
+            "foreground": "#b3deef",
+          }
+        },
+        {
+          "scope": "constant, constant.language, constant.other.placeholder",
+          "settings": {
+            "foreground": "#d3b987"
+          }
+        },
+        {
+          "scope": "variable.other.normal, variable.other.bracket",
+          "settings": {
+            // "foreground": "#c9d05c",
+            // "foreground": "#ffc24b",
+            "foreground": "#d3b987",
+          }
+        },
+      ]
+    },
+  },
+```
